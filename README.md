@@ -45,9 +45,10 @@ A multithreaded client-server application built in Python that allows a GUI-base
 (IV) Setup Instructions
 
 - In the client script change the variable to your desired server IP or domain name
-- OPTIONAL: The scripts work on port 1234 and with a total of 5 clients by default; if you want to change any of these parameters, follow these guidelines:
+- OPTIONAL: The scripts work on port 1234 and with a total of 5 clients by default; if you want to change any of these parameters, follow this guideline:
 
 (1) In the client script change SERVER_PORT to your desired server port
+
 (2) In "Final Project-GUI" under the variable "server" (under __main__) add the proper parameters (instead of: server = CommandServer(); make it: server = CommandServer("10.0.0.1",9993,10), for example).
 
 - Run "Final Project-GUI" on the server device
