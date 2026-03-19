@@ -19,7 +19,6 @@ class CommandServerGUI(object):
         self.server = server
         self.root.title("Commanding Server")
         self.root.geometry("900x500")
-        self.root.iconbitmap(r"Puppeteer.ico")
 
         self.setup_main_layout()
         self.create_frames()
